@@ -1,7 +1,7 @@
 package com.twitter.finagle
 
-import com.twitter.finagle.stats.DefaultStatsReceiver
-import com.twitter.finagle.toggle.{StandardToggleMap, ToggleMap}
+import stats.DefaultStatsReceiver
+import toggle.{StandardToggleMap, ToggleMap}
 
 package object memcached {
 
